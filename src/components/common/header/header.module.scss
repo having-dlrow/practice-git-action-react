@@ -1,0 +1,56 @@
+.header {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+}
+
+.navBar {
+  border-bottom: 1px solid #d9d9d9;
+  background-color: white;
+}
+
+.navContent {
+  width: min(var(--max-width), 100% - var(--padding) * 2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline: auto;
+  height: 70px;
+  font-size: 14px;
+}
+
+.logoSection {
+  display: flex;
+  align-items: center;
+
+  h1 {
+    font-size: 25px;
+    font-weight: var(--fw-bold);
+  }
+
+  .menuItems {
+    display: flex;
+    gap: 25px;
+    margin-left: 50px;
+    font-weight: medium;
+  }
+}
+
+.authLinks,
+.userInfo {
+  display: flex;
+  gap: 20px;
+}
+
+.contentSection {
+  position: relative;
+  width: 100%;
+}
+
+.chatToggle {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}

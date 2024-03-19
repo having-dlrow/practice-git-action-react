@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.ul {
+  display: flex;
+  margin-inline: 5px;
+  li {
+    cursor: pointer;
+    padding-inline: 15px;
+  }
+}
+
+.controller {
+  display: flex;
+  gap: 10px;
+}
+.active {
+  color: #00a99d;
+}
+.inActive {
+  background: #f9f9f9;
+}
+.iconSpan {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+}

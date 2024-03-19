@@ -1,0 +1,43 @@
+.container {
+  width: 314px;
+  height: 100dvh;
+  background: #fff;
+  display: flex;
+  border-right: 1px solid #d9d9d9;
+  position: fixed;
+}
+.navigation {
+  width: 90px;
+  background: #eaeaea;
+}
+.iconBox {
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.selectedBox {
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: #fff;
+}
+.content {
+  padding: 39px 0 0 30px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contentText {
+  font-size: 16px;
+  cursor: pointer;
+}
+.selectedText {
+  color: #8894ff;
+  font-size: 16px;
+  cursor: pointer;
+}

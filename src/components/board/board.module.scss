@@ -1,0 +1,25 @@
+.container {
+  position: relative;
+  z-index: -1;
+  h2 {
+    font-size: 25px;
+    font-weight: var(--fw-bold);
+  }
+}
+
+.TableDiv {
+  margin-block: 16px 62px;
+}
+
+.writeButton {
+  position: absolute;
+  bottom: 40px;
+  right: 0;
+  border: 0;
+  border-radius: 8px;
+  padding: 5px 12px;
+  background: #888888;
+  font-size: 14px;
+  font-weight: var(--fw-medium);
+  color: #fff;
+}

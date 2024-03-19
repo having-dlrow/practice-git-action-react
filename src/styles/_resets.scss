@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: inherit;
+  color: inherit;
+  font: inherit;
+  font-family: 'pretendard';
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  text-rendering: optimizeSpeed;
+  font-weight: var(--fw-medium);
+}
+
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+}

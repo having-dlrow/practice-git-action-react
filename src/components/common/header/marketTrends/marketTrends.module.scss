@@ -1,0 +1,36 @@
+.wrapper {
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.content {
+  margin: auto;
+  width: min(var(--max-width), 100% - var(--padding) * 2);
+  font-size: 12px;
+}
+
+.stats {
+  display: flex;
+  gap: 15px;
+  padding: 0.25rem 0;
+  color: #333;
+}
+
+.statItem {
+  display: flex;
+  gap: 5px;
+}
+
+.label {
+  font-weight: medium;
+}
+
+.value {
+  font-weight: semibold;
+}
+
+.changePositive {
+  font-weight: semibold;
+  color: #00a99d;
+}
